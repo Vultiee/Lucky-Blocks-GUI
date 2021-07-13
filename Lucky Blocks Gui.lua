@@ -20,8 +20,9 @@ ScreenGui.Parent = game.CoreGui
 
 frame1.Name = "frame1"
 frame1.Parent = ScreenGui
+frame1.AnchorPoint = Vector2.new(0.5, 0.5)
 frame1.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-frame1.Position = UDim2.new(0.423423409, 0, 0.299578071, 0)
+frame1.Position = UDim2.new(0.5, 0, 0.5, 0)
 frame1.Size = UDim2.new(0, 196, 0, 302)
 frame1.Active = true
 frame1.Draggable = true
